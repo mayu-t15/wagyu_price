@@ -63,6 +63,7 @@ footer {
 }
 
 #page-top {
+  display: none;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -84,4 +85,10 @@ footer {
 #page-top i {
   color: #000;
   font-size: 1.0em;
+}
+
+@media screen and (max-width:576px) {
+  #page-top {
+    display: inline;
+  }
 }
